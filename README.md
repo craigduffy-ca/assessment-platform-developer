@@ -1,8 +1,8 @@
 # Platform Developer Assessment
 
-In this assessment, you will demonstrate your ability to refactor code an implement common design patterns used in our codebase.
+In this assessment, you will demonstrate your ability to refactor code and implement common design patterns and principles used in our codebase.
 
-Knowledge of of common design patterns used in .NET C# development will help.
+Knowledge of common design patterns used in .NET C# development will be beneficial.
 
 ## Assignment
 
@@ -16,7 +16,7 @@ functionality for the form. The changes should include the following:
 2. Refactoring of the Service and Repository objects to use the Command Query Responsibility Segregation pattern 
 3. Add intelligent validation to the fields on the form. IE If a US State is provided, the Postal Code/ZIP field should validate that the 
 value matches the expected ZIP code formats of ##### or #####-#### and vice versa
-4. Allow updating and deletion of customers in the customers drop down list
+4. Allow updating and deletion of customer data listed in the customers drop down list
 
 ### Requirements
 
