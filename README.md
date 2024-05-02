@@ -3,14 +3,15 @@
 In this assessment, you will demonstrate your ability to refactor code and implement common design patterns and principles used in our codebase.
 
 Knowledge of common design patterns used in .NET C# development will be beneficial.
-
 ## Assignment
 
 The Customers.aspx page has code that renders a very simple form that allows users to add a customer to a dropdown list. The customers
 dropdown list is loaded from a local data repository.
 
 The main goal is to refactor and modify the underlying code to meet common coding disciplines and patterns while also building out additional 
-functionality for the form. The changes should include the following:
+functionality for the form. Design choices should demonstrate an understanding of testing and long term maintainability considerations.
+
+The changes should include the following:
 
 1. Refactoring of the model code to follow the SOLID design principle
 2. Refactoring of the Service and Repository objects to use the Command Query Responsibility Segregation pattern 
