@@ -35,4 +35,4 @@ If time allows, add unit testing for the field validations.
 1. Create a new repository with the initial code and complete your solution on top of it, do not fork the repository
 2. Add a README-IMPLEMENTED.md with any details necessary
 3. Once the solution is built, send your solution to your hiring contact
-4. Please deliver the solution within 14 days of receiving this assessment
+4. Please deliver the solution within 7 days of receiving this assessment
