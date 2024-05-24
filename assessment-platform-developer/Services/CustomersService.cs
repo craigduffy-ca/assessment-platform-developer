@@ -18,36 +18,38 @@ namespace assessment_platform_developer.Services
 
 	public class CustomerService : ICustomerService
 	{
-		private readonly ICustomerRepository customerRepository;
+		private readonly ICustomerQuery customerQuery;
+        private readonly ICustomerCommand customerCommand;
 
-		public CustomerService(ICustomerRepository customerRepository)
+        public CustomerService(ICustomerQuery customerQuery, ICustomerCommand customerCommand)
 		{
-			this.customerRepository = customerRepository;
+			this.customerQuery = customerQuery;
+			this.customerCommand = customerCommand;
 		}
 
 		public IEnumerable<Customer> GetAllCustomers()
 		{
-			return customerRepository.GetAll();
+			return customerQuery.GetAll();
 		}
 
 		public Customer GetCustomer(int id)
 		{
-			return customerRepository.Get(id);
+			return customerQuery.Get(id);
 		}
 
 		public void AddCustomer(Customer customer)
 		{
-			customerRepository.Add(customer);
+			customerCommand.Add(customer);
 		}
 
 		public void UpdateCustomer(Customer customer)
 		{
-			customerRepository.Update(customer);
+            customerCommand.Update(customer);
 		}
 
 		public void DeleteCustomer(int id)
 		{
-			customerRepository.Delete(id);
+            customerCommand.Delete(id);
 		}
 	}
 

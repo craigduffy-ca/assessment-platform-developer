@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|c:\\users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\customers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|solutionrelative:assessment-platform-developer\\customers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|c:\\users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\services\\customersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|solutionrelative:assessment-platform-developer\\services\\customersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|c:\\users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\repositories\\customersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|solutionrelative:assessment-platform-developer\\repositories\\customersrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|c:\\users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|solutionrelative:assessment-platform-developer\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Customers.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\Customers.aspx.cs",
+              "RelativeDocumentMoniker": "assessment-platform-developer\\Customers.aspx.cs",
+              "ToolTip": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\Customers.aspx.cs",
+              "RelativeToolTip": "assessment-platform-developer\\Customers.aspx.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:27:35.283Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\Global.asax.cs",
+              "RelativeDocumentMoniker": "assessment-platform-developer\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\Global.asax.cs",
+              "RelativeToolTip": "assessment-platform-developer\\Global.asax.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAmwFIAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T17:22:52.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CustomersRepository.cs",
+              "DocumentMoniker": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\Repositories\\CustomersRepository.cs",
+              "RelativeDocumentMoniker": "assessment-platform-developer\\Repositories\\CustomersRepository.cs",
+              "ToolTip": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\Repositories\\CustomersRepository.cs",
+              "RelativeToolTip": "assessment-platform-developer\\Repositories\\CustomersRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:10:40.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomersService.cs",
+              "DocumentMoniker": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\Services\\CustomersService.cs",
+              "RelativeDocumentMoniker": "assessment-platform-developer\\Services\\CustomersService.cs",
+              "ToolTip": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\Services\\CustomersService.cs",
+              "RelativeToolTip": "assessment-platform-developer\\Services\\CustomersService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-24T16:10:36.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -234,6 +234,6 @@ C:\Users\craig\Source\Repos\assessment-platform-developer\assessment-platform-de
 C:\Users\craig\Source\Repos\assessment-platform-developer\assessment-platform-developer\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\craig\Source\Repos\assessment-platform-developer\assessment-platform-developer\obj\Debug\assessment-platform-developer.csproj.AssemblyReference.cache
 C:\Users\craig\Source\Repos\assessment-platform-developer\assessment-platform-developer\obj\Debug\assessment-platform-developer.csproj.CoreCompileInputs.cache
-C:\Users\craig\Source\Repos\assessment-platform-developer\assessment-platform-developer\obj\Debug\assessment-platform-developer.csproj.CopyComplete
 C:\Users\craig\Source\Repos\assessment-platform-developer\assessment-platform-developer\obj\Debug\assessment-platform-developer.dll
 C:\Users\craig\Source\Repos\assessment-platform-developer\assessment-platform-developer\obj\Debug\assessment-platform-developer.pdb
+C:\Users\craig\Source\Repos\assessment-platform-developer\assessment-platform-developer\obj\Debug\assessme.14EB4F87.Up2Date

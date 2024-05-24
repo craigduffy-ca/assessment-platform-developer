@@ -74,11 +74,12 @@ namespace assessment_platform_developer
 			container.Options.DefaultScopedLifestyle = new WebRequestLifestyle();
 
 			// 2. Configure the container (register)
-			container.Register<ICustomerRepository, CustomerRepository>(Lifestyle.Singleton);
-			container.Register<ICustomerService, CustomerService>(Lifestyle.Scoped);
+			container.Register<ICustomerQuery, CustomerQuery>(Lifestyle.Singleton);
+            container.Register<ICustomerCommand, CustomerCommand>(Lifestyle.Singleton);
+            container.Register<ICustomerService, CustomerService>(Lifestyle.Scoped);
 
-			// Register your Page classes to allow them to be verified and diagnosed.
-			RegisterWebPages(container);
+            // Register your Page classes to allow them to be verified and diagnosed.
+            RegisterWebPages(container);
 			container.Options.ResolveUnregisteredConcreteTypes = true;
 
 			// 3. Store the container for use by Page classes.

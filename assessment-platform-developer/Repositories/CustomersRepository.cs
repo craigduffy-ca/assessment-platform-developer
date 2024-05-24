@@ -1,20 +1,25 @@
 ﻿using assessment_platform_developer.Models;
+using assessment_platform_developer.Repositories;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 
 namespace assessment_platform_developer.Repositories
 {
-	public interface ICustomerRepository
+	public interface ICustomerQuery
 	{
 		IEnumerable<Customer> GetAll();
 		Customer Get(int id);
-		void Add(Customer customer);
-		void Update(Customer customer);
-		void Delete(int id);
 	}
 
-	public class CustomerRepository : ICustomerRepository
+    public interface ICustomerCommand
+    {
+        void Add(Customer customer);
+        void Update(Customer customer);
+        void Delete(int id);
+    }
+
+    public class CustomerQuery : ICustomerQuery
 	{
 		// Assuming you have a DbContext named 'context'
 		private readonly List<Customer> customers = new List<Customer>();
@@ -28,8 +33,13 @@ namespace assessment_platform_developer.Repositories
 		{
 			return customers.FirstOrDefault(c => c.ID == id);
 		}
+	}
 
-		public void Add(Customer customer)
+    public class CustomerCommand : ICustomerCommand
+    {
+        private readonly List<Customer> customers = new List<Customer>();
+
+        public void Add(Customer customer)
 		{
 			customers.Add(customer);
 		}
