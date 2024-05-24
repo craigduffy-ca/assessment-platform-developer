@@ -66,7 +66,7 @@
 	<div>
 		<div class="container body-content">
 			<h2>Customer Registry</h2>
-			<asp:DropDownList runat="server" ID="CustomersDDL" CssClass="form-control"/>
+			<asp:DropDownList runat="server" ID="CustomersDDL" CssClass="form-control" AutoPostBack="true" OnSelectedIndexChanged="CustomersDDL_SelectedIndexChanged"/>
 		</div>
 
 		<div class="container body-content">
@@ -142,6 +142,8 @@
 
 							<div class="form-group">
 								<asp:Button ID="AddButton" class="btn btn-primary btn-md" runat="server" Text="Add" OnClick="AddButton_Click" CausesValidation="true" />
+								<asp:Button ID="UpdateButton" class="btn btn-primary btn-md" runat="server" Text="Update" OnClick="UpdateButton_Click" CausesValidation="true" />
+								<asp:Button ID="DeleteButton" class="btn btn-primary btn-md" runat="server" Text="Delete" OnClick="DeleteButton_Click" CausesValidation="true" />
 							</div>
 						</div>
 					</div>

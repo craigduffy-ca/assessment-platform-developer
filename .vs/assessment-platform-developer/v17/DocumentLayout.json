@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|c:\\users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\customers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|solutionrelative:assessment-platform-developer\\customers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|c:\\users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\customers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|solutionrelative:assessment-platform-developer\\customers.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\customers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|solutionrelative:assessment-platform-developer\\customers.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BB0C76FD-DE18-4332-A0E8-EC9399D928E0}|assessment-platform-developer\\assessment-platform-developer.csproj|C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\services\\customersservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,12 +38,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Customers.aspx",
               "DocumentMoniker": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\Customers.aspx",
               "RelativeDocumentMoniker": "assessment-platform-developer\\Customers.aspx",
-              "ToolTip": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\Customers.aspx*",
-              "RelativeToolTip": "assessment-platform-developer\\Customers.aspx*",
+              "ToolTip": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\Customers.aspx",
+              "RelativeToolTip": "assessment-platform-developer\\Customers.aspx",
               "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-05-24T17:57:22.208Z",
@@ -51,13 +51,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Customers.aspx.cs",
               "DocumentMoniker": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\Customers.aspx.cs",
               "RelativeDocumentMoniker": "assessment-platform-developer\\Customers.aspx.cs",
               "ToolTip": "C:\\Users\\craig\\source\\repos\\assessment-platform-developer\\assessment-platform-developer\\Customers.aspx.cs",
               "RelativeToolTip": "assessment-platform-developer\\Customers.aspx.cs",
-              "ViewState": "AQIAAGEAAAAAAAAAAAAgwIwAAAAJAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABMAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-24T17:27:35.283Z",
               "EditorCaption": ""
@@ -72,8 +72,7 @@
               "RelativeToolTip": "assessment-platform-developer\\Global.asax.cs",
               "ViewState": "AQIAADwAAAAAAAAAAAAmwFIAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T17:22:52.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T17:22:52.695Z"
             },
             {
               "$type": "Document",
@@ -85,8 +84,7 @@
               "RelativeToolTip": "assessment-platform-developer\\Repositories\\CustomersRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T16:10:40.303Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T16:10:40.303Z"
             },
             {
               "$type": "Document",
@@ -98,8 +96,7 @@
               "RelativeToolTip": "assessment-platform-developer\\Services\\CustomersService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAIBJwCwAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-24T16:10:36.433Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-24T16:10:36.433Z"
             }
           ]
         }

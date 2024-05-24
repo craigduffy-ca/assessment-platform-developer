@@ -101,7 +101,41 @@ namespace assessment_platform_developer
             CustomersDDL.Items.Add(new ListItem(customer.Name));
 
             ClearCustomerFields();
-        }        
+        }
+
+        protected void UpdateButton_Click(object sender, EventArgs e)
+        {
+            var selectedCustomer = customers.FirstOrDefault(c => c.Name == CustomersDDL.SelectedValue);
+            if (selectedCustomer != null)
+            {
+                selectedCustomer.Name = CustomerName.Text;
+                selectedCustomer.Address = CustomerAddress.Text;
+                selectedCustomer.City = CustomerCity.Text;
+                selectedCustomer.State = StateDropDownList.SelectedValue;
+                selectedCustomer.Zip = CustomerZip.Text;
+                selectedCustomer.Country = CountryDropDownList.SelectedValue;
+                selectedCustomer.Email = CustomerEmail.Text;
+                selectedCustomer.Phone = CustomerPhone.Text;
+                selectedCustomer.Notes = CustomerNotes.Text;
+                selectedCustomer.ContactName = ContactName.Text;
+                selectedCustomer.ContactPhone = CustomerPhone.Text;
+                selectedCustomer.ContactEmail = CustomerEmail.Text;
+
+                ClearCustomerFields();
+            }
+        }
+
+        protected void DeleteButton_Click(object sender, EventArgs e)
+        {
+            var selectedCustomer = customers.FirstOrDefault(c => c.Name == CustomersDDL.SelectedValue);
+            if (selectedCustomer != null)
+            {
+                customers.Remove(selectedCustomer);
+                CustomersDDL.Items.Remove(CustomersDDL.SelectedItem);
+
+                ClearCustomerFields();
+            }
+        }
 
         private void ClearCustomerFields()
         {
@@ -140,6 +174,27 @@ namespace assessment_platform_developer
         protected void EmailValidator_ServerValidate(object source, ServerValidateEventArgs args)
         {
             args.IsValid = Regex.IsMatch(args.Value, @"^[\w-]+(\.[\w-]+)*@([\w-]+\.)+[a-zA-Z]{2,7}$");
+        }
+        protected void CustomersDDL_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ClearCustomerFields();
+
+            var selectedCustomer = customers.FirstOrDefault(c => c.Name == CustomersDDL.SelectedValue);
+            if (selectedCustomer != null)
+            {
+                CustomerName.Text = selectedCustomer.Name;
+                CustomerAddress.Text = selectedCustomer.Address;
+                CustomerCity.Text = selectedCustomer.City;
+                StateDropDownList.SelectedValue = selectedCustomer.State;
+                CustomerZip.Text = selectedCustomer.Zip;
+                CountryDropDownList.SelectedValue = selectedCustomer.Country;
+                CustomerEmail.Text = selectedCustomer.Email;
+                CustomerPhone.Text = selectedCustomer.Phone;
+                CustomerNotes.Text = selectedCustomer.Notes;
+                ContactName.Text = selectedCustomer.ContactName;
+                ContactPhone.Text = selectedCustomer.ContactPhone;
+                ContactEmail.Text = selectedCustomer.ContactEmail;
+            }
         }
     }
 }
