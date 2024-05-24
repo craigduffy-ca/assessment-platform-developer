@@ -1,6 +1,7 @@
 # Changes to original solution
 
-Refactoring details.
-## First
+To enforce the Command Query Responsibility Segregation (CQRS) pattern: ICustomerRepository was modified to separate ICustomerQuery and ICustomerCommand, along with their corresponding classes. CustomerService was also modified to orchestrate these.
 
-Change. 
+Server side validation added to the Customer fields.
+
+Add and Delete functionality added to the form.
