@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="CustomerForm.aspx.cs" Inherits="assessment_platform_developer.Customers" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Customers.aspx.cs" Inherits="assessment_platform_developer.Customers" %>
 
 <!DOCTYPE html>
 
@@ -36,6 +36,12 @@
 			<%--Site Scripts--%>
 		</Scripts>
 	</asp:ScriptManager>
+
+	<asp:CustomValidator ID="ZipCodeValidator" runat="server" ControlToValidate="CustomerZip" ErrorMessage="Invalid Zip Code" CssClass="text-danger" OnServerValidate="ZipCodeValidator_ServerValidate"></asp:CustomValidator>
+    <asp:CustomValidator ID="EmailValidator" runat="server" ControlToValidate="CustomerEmail" ErrorMessage="Invalid Email" CssClass="text-danger" OnServerValidate="EmailValidator_ServerValidate"></asp:CustomValidator>
+	<asp:CustomValidator ID="PhoneValidator" runat="server" ControlToValidate="CustomerPhone" ErrorMessage="Invalid Phone" CssClass="text-danger" OnServerValidate="PhoneValidator_ServerValidate"></asp:CustomValidator>
+	<asp:CustomValidator ID="ContactPhoneValidator" runat="server" ControlToValidate="ContactPhone" ErrorMessage="Invalid Phone" CssClass="text-danger" OnServerValidate="PhoneValidator_ServerValidate"></asp:CustomValidator>
+	<asp:CustomValidator ID="ContactEmailValidator" runat="server" ControlToValidate="ContactEmail" ErrorMessage="Invalid Email" CssClass="text-danger" OnServerValidate="EmailValidator_ServerValidate"></asp:CustomValidator>
 
 	<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark">
 		<div class="container body-content">
@@ -135,7 +141,7 @@
 							</div>
 
 							<div class="form-group">
-								<asp:Button ID="AddButton" class="btn btn-primary btn-md" runat="server" Text="Add" OnClick="AddButton_Click" />
+								<asp:Button ID="AddButton" class="btn btn-primary btn-md" runat="server" Text="Add" OnClick="AddButton_Click" CausesValidation="true" />
 							</div>
 						</div>
 					</div>
